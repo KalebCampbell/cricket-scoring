@@ -27,6 +27,14 @@
     assert.equal(getScorecard(), '16');
   });
 
+  QUnit.test("minusing . removes 0", function( assert ) {
+    enter('6')
+    enter('.');
+    assert.equal(getScore(), 6);
+    backspace();
+    assert.equal(getScore(), 6);
+  });
+
   QUnit.test("entering dot doesn't add to the score", function( assert ) {
     enter('.');
     assert.equal(getScore(), 0);

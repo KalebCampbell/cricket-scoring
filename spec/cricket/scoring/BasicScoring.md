@@ -26,6 +26,9 @@ Then the Score Card and Total Runs Scored are accumulated as shown.
 | 3 | .13    | 4  |
 | . | .13.   | 4  |
 | 6 | .13.6  | 10 |
+| 3 | .13.63  | 13 |
+| 2 | .13.632  | 15 |
+
 
 [enter]: - "#result = enterScore(#entry)"
 [entry]: - "#entry"
