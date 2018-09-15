@@ -1,3 +1,3 @@
-# Assurity Trainging Application
+# Assurity Training Application
 
 
